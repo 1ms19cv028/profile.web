@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="./form.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+   <title> Regisration Form </title>
+</head>
+<body>
+    <div class="container">
+        <header><span class="title">NOMINEE Details Details</span></header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <!-- <span class="title">NOMINEE Details Details</span> -->
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label> Name</label>
+                            <input type="text" placeholder="Enter  name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <!-- <label>Relationship</label> -->
+                            <label for="input-field">Relationship</label>
+                            <select id="input-field">
+                              <option value="option1">Mother</option>
+                              <option value="option2">Father</option>
+                              <option value="option3">Spouse</option>
+                              <option value="option3">Brother</option>
+                              <option value="option3">Other</option>
+                              <!-- Add more options here -->
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label> client-holding</label>
+                            <input type="number" placeholder="" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <select required>
+                                <option disabled selected>Select occupation</option>
+                                <option>proffesional</option>
+                                <option>business</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                        <label>Source of Income</label>
+                        <input type="text" placeholder="Enter  type of source " required>
+                    </div>
+                        <div class="input-field">
+                            <label for="input-field">Tax Status</label>
+                            <select id="input-field">
+                              <option value="option1">Single</option>
+                              <option value="option2">Married Filing Jointly</option>
+                              <option value="option3">Married Filing Separately.</option>
+                              <option value="option3">Head of Household</option>
+                              <option value="option3">Qualifying Widow(er) with Dependent Child</option>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+</form>
+    </div>
+<button id="next">Next</button>
+    <div class="buttons">
+        <div class="backBtn">
+            <i class="uil uil-navigator"></i>
+            <span class="btnText">Back</span>
+        </div>
+        
+    </div>
+        <button class="sumbit">
+            <span class="btnText">Submit</span>
+            <i class="uil uil-navigator"></i>
+        </button>
+    </div> 
+</div>
+
+
+</body>
+</html>
